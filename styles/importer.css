@@ -1,0 +1,10 @@
+button.gcs-eden-import,
+.gcs-eden-import-ctl {
+  border: 1px solid rgba(255,255,255,.15);
+  background:#1f2937;
+  color:#e5e7eb;
+  border-radius:8px;
+  padding:4px 8px;
+}
+.gcs-eden-form .form-group { margin-bottom: 0.5rem; }
+.gcs-eden-form .notes { font-size: 12px; opacity: .8; }

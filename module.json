@@ -1,0 +1,21 @@
+{
+  "id": "gcs-sr6-eden-importer",
+  "type": "module",
+  "title": "Gate City Shadows — SR6 Eden Importer",
+  "description": "Import Shadowrun 6e (shadowrun6-eden) character JSON into the Actors Directory.",
+  "version": "0.3.0",
+  "authors": [{ "name": "Gate City Shadows", "url": "https://gatecityshadows.net" }],
+  "compatibility": { "minimum": "10", "verified": "13" },
+  "relationships": {
+    "systems": [
+      { "id": "shadowrun6-eden", "type": "system", "compatibility": { "minimum": "3.0.0" } }
+    ]
+  },
+  "esmodules": ["scripts/importer.js"],
+  "styles": ["styles/importer.css"],
+  "languages": [{ "lang": "en", "name": "English", "path": "lang/en.json" }],
+  "url": "https://gatecityshadows.net",
+  "license": "MIT",
+  "manifest": "https://gatecityshadows.net/modules/gcs-sr6-eden-importer/module.json",
+  "download": "https://gatecityshadows.net/modules/gcs-sr6-eden-importer/gcs-sr6-eden-importer.zip"
+}
